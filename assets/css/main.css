@@ -1311,7 +1311,7 @@
 
 	body {
 		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/background.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -1433,6 +1433,7 @@
 			display: block;
 			margin: 0.5em 0 0 0;
 			padding: 0 0 1.5em 0;
+
 		}
 
 	footer {
@@ -1944,6 +1945,7 @@
 				font-weight: 600;
 				font-size: 2em;
 				letter-spacing: 10px;
+				
 			}
 
 			#header header p {
@@ -1955,6 +1957,7 @@
 				letter-spacing: 3px;
 				padding: 0;
 				margin-top: 0.35em;
+				color:#000000;
 			}
 
 				#header header p:before {
@@ -2001,7 +2004,7 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		background: #35b88f url("../../images/purple.jpg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -2031,13 +2034,25 @@
 		}
 
 		#banner a {
-			color: inherit;
+			color: #000000;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
 			#banner a:hover {
 				border-bottom-color: rgba(255, 255, 255, 0);
 			}
+
+/* Portfolio */
+#portfolio {
+		position: relative;
+		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+		text-align: center;
+		background: #35b88f url("../../images/background.jpg") bottom center no-repeat;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+
 
 /* Footer */
 
@@ -2252,7 +2267,7 @@
 
 			body {
 				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				background-image: url("images/overlay.png"), url("../../images/background.jpg");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
